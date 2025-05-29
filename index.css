@@ -1,0 +1,88 @@
+html, body{
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+.pic{
+    background: url(../image/IMG_2271\ \(1\).jpg) no-repeat center center;
+    display: block;
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 150px 0;
+    background-clip: border-box;
+}
+.container {
+    width: 100%;
+    font-size: 23px; 
+    color: white;
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+button{
+    width:100;
+    background-color: #ffc107;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    list-style: none;
+    font-weight: bold;
+    font-size: 16px;
+    display: inline-block;
+    border: 2px solid #ffc107;
+}
+.offer {
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 25px;
+}
+table{
+    width: 100px;
+    font-family: arial, sans-serif;
+     border-collapse: collapse;
+     margin-left: 10px;
+}
+ th ,td{
+    border: 1px solid black ;
+    border-collapse: collapse;
+    border-spacing:0px;
+    text-align: center;
+    padding: 5px;
+    
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+header nav ul {
+    list-style: none;
+    gap:20px;
+    display: flex;
+    margin:5px;
+}
+header nav li {
+    font-family:Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+}
+header ul a{
+    color:white;
+    text-decoration: solid;
+}
+header nav ul li a:hover{
+    color: #f6ef74;
+}
+.offer{
+    padding:5px;
+}
+
+.detial{
+    padding:5px;
+    text-align: left;
+}
+.location ol li{
+    list-style: none;
+}
