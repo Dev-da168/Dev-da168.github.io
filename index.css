@@ -86,3 +86,21 @@ header nav ul li a:hover{
 .location ol li{
     list-style: none;
 }
+.detial {
+    display:grid;
+    column-gap:10px;
+    grid-template-columns: repeat;
+    text-align: center;
+}
+.best-value h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;;
+}
+.equipment h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.location h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;;
+}
