@@ -4,7 +4,7 @@ html, body{
     padding: 0;
 }
 .pic{
-    background: url(../image/IMG_2271\ \(1\).jpg) no-repeat center center;
+    background: url(/image/IMG_2271\ \(1\).jpg) no-repeat center center;
     display: block;
     height: 100%;
     background-size: cover;
