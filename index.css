@@ -5,7 +5,7 @@ html, body{
     background-color: #ffffff;
 }
 .pic{
-    background: url(/image/IMG_2271\ \(1\).jpg) no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(/image/IMG_2271\ \(1\).jpg) no-repeat center center;
     display: block;
     height: 100%;
     background-size: cover;
@@ -22,13 +22,6 @@ html, body{
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
     margin-top: -30px;
-}
-.offer {
-    text-align: center;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 25px;
-    margin:20px;
 }
 table{
     width: 100px;
@@ -67,39 +60,55 @@ header ul a{
 header nav ul li a:hover{
     color: #f6ef74;
 }
-.offer{
-    padding:5px;
-}
-
-.detial{
-    padding:5px;
-    text-align: left;
-}
-.location ol li{
-    list-style: none;
+.offer {
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 25px;
+    margin:10px;
 }
 .detial {
     display:grid;
     column-gap:10px;
     grid-template-columns: repeat;
     text-align: center;
-    padding-left: 10px;
-    padding-right:10px;
     min-width: 768px;
     grid-template-columns: repeat(3, minmax(0, 1fr));
+    flex-wrap: wrap; display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px 0px;
 }
-.best-value h3{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;;
+.best-value, .equipment, .location {
+    width: 300px;
+    padding: 20px;
+    margin: 0px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    text-align: center;
 }
-.equipment h3{
+
+.best-value:hover, .equipment:hover, .location:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(135deg, #f5f5f5 0%, #ffffff 100%);
+}
+
+.best-value img, .equipment img, .location img {
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.best-value:hover img, .equipment:hover img, .location:hover img {
+    transform: scale(1.2);
+}
+.best-value, .equipment, .location, h1{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
 }
-.location h3{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;;
-}
+
 .best-value a{
     cursor: pointer;
     font-weight: bold;
@@ -132,7 +141,8 @@ header nav ul li a:hover{
    max-width: 100px, relative;
    width:100px relative;
    height: 440px fixed;
-}
+}  
+
 .member-pic{
     position: relative;
     overflow: hidden;

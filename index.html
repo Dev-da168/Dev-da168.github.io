@@ -19,6 +19,15 @@
                 padding: 10px 20px;
                 font-size: 16px;
                 cursor: pointer;
+
+            }
+            .btn-primary:hover{
+                background-color: #ffab00 !important;
+                transform: translateY(-3px);
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+            .btn-primary:hover a{
+                color:#000000 !important;
             }
             .btn-lg{
                 background-color: #ffc107 !important;
@@ -29,26 +38,32 @@
                 cursor: pointer;
                 margin-left: 20px;
             }
+            .member-pic:hover{
+                -ms-transform: scale(1.01); /* IE 9 */
+                -webkit-transform: scale(1.01); /* Safari 3-8 */
+                transform: scale(1.01);  
+            }
             
         </style>
+        
         <header>
             <img src="image/Black and White Minimalist GYM Center Logo.png" alt="logo" width="100" height="100">
         <nav>
             <ul>
                 <li><a href="../html/index.html">Home</a></li>
                 <li><a href="#">About us</a></li>
-                <li><a href="./html/membership.html">Membership</a></li>
+                <li><a href="membership.html">Membership</a></li>
                 <li><a href="#">Contact us</a></li>
             </ul>
         </nav>
         </header>
         <div class="pic">
             <div class="container">
-               <h1>
+               <h1 style="text-shadow: 3px 2px #000000;">
                 Transform Your Body. Empower Your Life. <br> 
                 </h1> 
-                <p>Join Gym Center — Your local destination for strength, fitness, and wellness.</p>
-                <button class="btn btn-primary"><a href="./html/membership.html">Join now</button></a>
+                <p style="text-shadow: 3px 2px #000000;">Join Gym Center — Your local destination for strength, fitness, and wellness.</p>
+                <button class="btn btn-primary "><a href="./html/membership.html">Join now</button></a>
             </div>
         </div>
         <div class="offer">
