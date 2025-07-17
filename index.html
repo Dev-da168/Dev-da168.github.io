@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0", width:100%>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Gym Center -  The Best Gym in Town</title>
         <meta name="description" content="Modern equipment, and affordable prices with experience trainer and friendly staff. Your fitness starts here.">
         <link rel="stylesheet" href="index.css">
@@ -11,87 +11,74 @@
 
     </head>
     <body>
-        <style>
-            .btn-primary {
-                background-color: #ffc107 !important;
-                color: #000000;
-                border: none;
-                padding: 10px 20px;
-                font-size: 16px;
-                cursor: pointer;
-
-            }
-            .btn-primary:hover{
-                background-color: #ffab00 !important;
-                transform: translateY(-3px);
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            }
-            .btn-primary:hover a{
-                color:#000000 !important;
-            }
-            .btn-lg{
-                background-color: #ffc107 !important;
-                color: #000000;
-                border: none;
-                float:left;
-                font-size: 23px;
-                cursor: pointer;
-                margin-left: 20px;
-            }
-            .member-pic:hover{
-                -ms-transform: scale(1.01); /* IE 9 */
-                -webkit-transform: scale(1.01); /* Safari 3-8 */
-                transform: scale(1.01);  
-            }
-            
-        </style>
         
-        <header>
-            <img src="image/Black and White Minimalist GYM Center Logo.png" alt="logo" width="100" height="100">
-        <nav>
-            <ul>
-                <li><a href="../html/index.html">Home</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="membership.html">Membership</a></li>
-                <li><a href="#">Contact us</a></li>
-            </ul>
-        </nav>
-        </header>
-        <div class="pic">
+    <header> 
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black sticky-top">
             <div class="container">
-               <h1 style="text-shadow: 3px 2px #000000;">
-                Transform Your Body. Empower Your Life. <br> 
-                </h1> 
-                <p style="text-shadow: 3px 2px #000000;">Join Gym Center — Your local destination for strength, fitness, and wellness.</p>
-                <button class="btn btn-primary "><a href="./html/membership.html">Join now</button></a>
-            </div>
-        </div>
-        <div class="offer">
-            <h1>A PLACE WHERE <span style="color:#ffc107">EVERYONE </span>FEEL WELCOME</h1>
-        </div>
-            <div class="detial">
-                <div class="best-value">
-                <img src="image/payments_40dp_000000_FILL0_wght400_GRAD0_opsz40.png" alt="price" width="40" height="40">  
-                <h1>Best Value</h1>
-                <p style="font-family: Arial, Helvetica, sans-serif; font-size: 22px; color:rgb(75 75 76 / var(--tw-text-opacity, 1))">We believe in providing a high-quality experience at an affordable cost.</p>
-                <p><a href="#">Learn More</a></p>
-                </div>
-                <div class="equipment">
-                    <img src="image/fitness_center_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" alt="equipment" width="40" height="40">
-                    <h1>Tons of Equipment</h1>
-                    <p style="font-family: Arial, Helvetica, sans-serif; font-size: 22px; color:rgb(75 75 76 / var(--tw-text-opacity, 1));">Tons of cardio and strength equipment, all in a clean and spacious environment.</p>
-                    <p><a href="#">Learn More</a></p>
-                </div>
-                <div class="location">
-                    <img src="image/pin_drop_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" alt="location" width="40" height="40">
-                    <h1>10+ locations</h1>
-                    <p style="font-family: Arial, Helvetica, sans-serif; font-size: 22px; color:rgb(75 75 76 / var(--tw-text-opacity, 1));">Find your nearless locations</p>
-                    <p><a href="#">Learn More</a></p>
+                <a class="navbar-brand" href="#">
+                    <img src="./image/Black and White Minimalist GYM Center Logo.png" alt="Gym Center Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./membership.html">Membership</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
+        </nav>
+    </header>
+        <div class="hero">
+            <div class="hero-content">
+               <h1>Transform Your Body. Empower Your Life. </h1> 
+                <p>Join Gym Center — Your local destination for strength, fitness, and wellness.</p>
+                <button class="btn btn-primary btn-lg "><a href="./html/membership.html">Join now</a></button>
+            </div>
+        </div>
+        <section class="container py-3">
+                <h1 class="section-title">A PLACE WHERE <span >EVERYONE </span>FEEL WELCOME</h1>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="value-card">
+                        <img src="image/payments_40dp_000000_FILL0_wght400_GRAD0_opsz40.png" alt="price">  
+                        <h1>Best Value</h1>
+                        <p>We believe in providing a high-quality experience at an affordable cost.</p>
+                        <p><a href="#">Learn More</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="value-card">
+                        <img src="image/fitness_center_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" alt="equipment">
+                        <h1>Tons of Equipment</h1>
+                        <p>Tons of cardio and strength equipment, all in a clean and spacious environment.</p>
+                        <p><a href="#">Learn More</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="value-card">
+                        <img src="image/pin_drop_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" alt="location">
+                        <h1>10+ locations</h1>
+                        <p >Find your nearless locations</p>
+                        <p><a href="#">Learn More</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
             <div class="membership">
                 <div class="member-pic">
-                <img src="/image/member.jpg" alt="membership" width="100%" height="500px">
+                <img src="/image/member.jpg" alt="membership" class="img-fluid">
                 </div>
                 <div class="member-text">
                     <h1><b>Ready to Get Started?</b></h1>
@@ -103,24 +90,43 @@
             <footer>
                 <div class="footer-content">
                     <div class="social-media">
-                        <img src="/image/Black and White Minimalist GYM Center Logo.png" alt="logo" width="100" height="100">
-                        <p style="color:#ffffff">Don't chase fine shyt.</p>
-                        <p style="color:#ffffff">Go to the gym and become fine shyt</p>
+                        <div class="footer-logo">
+                        <img src="/image/Black and White Minimalist GYM Center Logo.png" alt="logo"></div>
+                        <p>Don't chase fine shyt.</p>
+                        <p>Go to the gym and become fine shyt</p>
                         <div class="icon">
-                        <i class="fa-brands fa-facebook fa-xl" style="color: #ffffff;"></i>
-                        <i class="fa-brands fa-instagram fa-xl" style="color: #ffffff;"></i>
-                        <i class="fa-brands fa-twitter fa-xl" style="color: #ffffff;"></i>
+                        <i class="fa-brands fa-facebook fa-xl"></i>
+                        <i class="fa-brands fa-instagram fa-xl"></i>
+                        <i class="fa-brands fa-twitter fa-xl"></i>
                         </div>
                     </div>
-                </div>
+                
                 <div class="address">
-                    <h4 style="font-family: Arial, Helvetica, sans-serif; color:#ffffff">CENTER ADDRESS</h4>
-                    <p><i class="fa-solid fa-location-dot fa-xl" style="color: #ffffff;" > 123 Fitness St, Gym City, Phnom Penh</i></p>
-                    <p><i class="fa-solid fa-phone fa-xl" style="color: #ffffff;"> +885 775 740 041</i></p>
-                    <p><i class="fa-solid fa-envelope fa-xl" style="color: #ffffff;"> gymcenter@gmail.com</i></p>
-                    <p><i class="fa-solid fa-globe fa-xl" style="color: #ffffff;"> www.gymcenter.com</i></p>
-                        
+                    <h4>CENTER ADDRESS</h4>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="social-icon">
+                            <i class="fa-solid fa-location-dot fa-xl"></i></div>
+                            <p>123 Fitness St, Gym City, Phnom Penh</p>
+                        </div>
+                        <div class="contact-item">
+                            <div class="social-icon">
+                            <i class="fa-solid fa-phone fa-xl"></i></div>
+                            <p>+855 775 740 041</p>
+                        </div>
+                        <div class="contact-item">
+                            <div class="social-icon">
+                            <i class="fa-solid fa-envelope fa-xl"></i></div>
+                            <p>gymcenter@gmail.com</p>
+                        </div>
+                        <div class="contact-item">
+                            <div class="social-icon">
+                            <i class="fa-solid fa-globe fa-xl"></i></div>
+                            <p>www.gymcenter.com</p>
+                        </div>
+                    </div>    
                  </div>
-            </footer>
+                 </div>
+        </footer>
     </body>
 </html>
