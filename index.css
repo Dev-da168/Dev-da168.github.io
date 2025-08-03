@@ -21,12 +21,13 @@ body{
     background-color: var(--light-bg);
     color: var(--text-dark);
 }
+
 img{
     max-width: 100%;
     height: auto;
 }
 .navbar {
-    padding: 10px 0;
+    padding: 40px 0;
     background-color: var(--dark-bg) !important;
 }
 .navbar-brand img {
@@ -38,7 +39,7 @@ img{
     color: var(--text-light) !important;
     font-weight: 500;
     transition: color 0.3s;
-    padding: 0.5rem 1rem;
+    padding: 1rem 1rem;
     margin: 0.25rem 0;
 }
 
@@ -192,6 +193,7 @@ img{
     flex-wrap: wrap;
     align-items: center;
     gap: 30px;
+    margin-top: 20px;
 }  
 
 .member-pic{
@@ -214,7 +216,8 @@ img{
 footer {
     background-color: var(--dark-bg);
     color: var(--text-light);
-    padding: 4rem 0 2rem;
+    padding: 4rem 0 0.2rem;
+    max-height: 30rem;
 }
 
 .footer-content {
